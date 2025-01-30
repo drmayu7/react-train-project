@@ -1,4 +1,4 @@
-Javascript Training Project
+Javascript/React/NextJS Training Project
 
 1. Install Node.js
 2. Run `npm install` to install dependencies
