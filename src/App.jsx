@@ -32,7 +32,8 @@ function App() {
     }
 
 
-    return (<div>
+    return (
+        <>
             <Header/>
             <main>
                 <section id="core-concepts">
@@ -64,7 +65,7 @@ function App() {
                     {tabContent}
                 </section>
             </main>
-        </div>
+        </>
     );
 }
 
