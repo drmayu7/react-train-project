@@ -1,6 +1,6 @@
-import TabButton from "./TabButton";
+import TabButton from "./TabButton.jsx";
 import {useState} from "react";
-import {EXAMPLES} from "../data";
+import {EXAMPLES} from "../data.js";
 
 export default function Examples() {
     // Dynamically render the selected topic
@@ -8,7 +8,6 @@ export default function Examples() {
 
     function handleSelect(selectedButton) {
         setSelectedTopic(selectedButton);
-        console.log(selectedTopic)
     }
 
 // conditionally render the selected topic before and after selection
